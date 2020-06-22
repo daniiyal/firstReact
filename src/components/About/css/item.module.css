@@ -1,0 +1,22 @@
+.item_wrapper {
+    margin: 1vh;
+    margin-left: 0;
+    padding: 1vw;
+    border-radius: 15px;
+
+}
+
+.head {
+    font-size: 17pt;
+    padding-bottom: 1vw;
+    align-self: center;
+}
+
+.date {
+    font-size: 7pt;
+    padding-bottom: 1vh;
+}
+
+.descr {
+    font-size: 10pt;
+}

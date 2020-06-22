@@ -1,0 +1,27 @@
+.profile {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    color: aliceblue;
+}
+
+.photo {
+    align-self: end;
+    justify-self: center;
+}
+
+.photo img {
+    border-radius: 5%;
+    width: 240px;
+    height: 240px;
+}
+
+.description {
+    justify-self: center;
+}
+
+.name {
+    font-size: 40pt;
+}
+
+.level {
+}

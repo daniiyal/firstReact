@@ -1,0 +1,28 @@
+.work_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+            ". hd hd ."
+            ". work work .";
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.head {
+    grid-area: hd;
+    font-size: 40pt;
+    margin-bottom: 3vh;
+}
+
+.work {
+    grid-area: work;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3vw;
+
+}
+
+.item{
+    background: #282c34;
+}

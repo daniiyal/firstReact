@@ -1,0 +1,46 @@
+.about {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". hd hd ph ." ". desc desc ph ." ". ct mail ph .";
+}
+
+.head {
+    grid-area: hd;
+    align-self: end;
+    font-size: 40pt;
+    font-family: Roboto, serif;
+}
+
+.photo {
+    grid-area: ph;
+    align-self: center;
+    justify-self: center;
+}
+
+.photo img {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #282c34;
+    border-radius: 5px;
+
+}
+
+.descr {
+    grid-area: desc;
+    align-self: center;
+}
+
+.contact {
+    font-size: 10pt;
+    margin-top: 5vh;
+    grid-area: ct;
+}
+
+.mail {
+    font-size: 10pt;
+    margin-top: 5vh;
+    grid-area: mail;
+}
