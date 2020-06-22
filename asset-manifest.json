@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/firstReact/static/css/main.c0e9616c.chunk.css",
+    "main.js": "/firstReact/static/js/main.9ac365a8.chunk.js",
+    "main.js.map": "/firstReact/static/js/main.9ac365a8.chunk.js.map",
+    "runtime-main.js": "/firstReact/static/js/runtime-main.63b1707b.js",
+    "runtime-main.js.map": "/firstReact/static/js/runtime-main.63b1707b.js.map",
+    "static/js/2.d5796b9c.chunk.js": "/firstReact/static/js/2.d5796b9c.chunk.js",
+    "static/js/2.d5796b9c.chunk.js.map": "/firstReact/static/js/2.d5796b9c.chunk.js.map",
+    "index.html": "/firstReact/index.html",
+    "precache-manifest.1cd4959d40b044eac781d4556e07794b.js": "/firstReact/precache-manifest.1cd4959d40b044eac781d4556e07794b.js",
+    "service-worker.js": "/firstReact/service-worker.js",
+    "static/css/main.c0e9616c.chunk.css.map": "/firstReact/static/css/main.c0e9616c.chunk.css.map",
+    "static/js/2.d5796b9c.chunk.js.LICENSE.txt": "/firstReact/static/js/2.d5796b9c.chunk.js.LICENSE.txt",
+    "static/media/957d913f3328a6a260ebdf996a90dd6a.jpg": "/firstReact/static/media/957d913f3328a6a260ebdf996a90dd6a.05e8d714.jpg",
+    "static/media/main.module.css": "/firstReact/static/media/bkg.059c6374.jpg",
+    "static/media/denzel.jpg": "/firstReact/static/media/denzel.aa67d41a.jpg",
+    "static/media/game.jpg": "/firstReact/static/media/game.40958be9.jpg",
+    "static/media/gotovye-proekty-domov.jpg": "/firstReact/static/media/gotovye-proekty-domov.76d27ffc.jpg",
+    "static/media/instagram.png": "/firstReact/static/media/instagram.6a9fb2ed.png",
+    "static/media/telegram.png": "/firstReact/static/media/telegram.3c6f16b1.png",
+    "static/media/vk.png": "/firstReact/static/media/vk.05b02231.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63b1707b.js",
+    "static/js/2.d5796b9c.chunk.js",
+    "static/css/main.c0e9616c.chunk.css",
+    "static/js/main.9ac365a8.chunk.js"
+  ]
+}
