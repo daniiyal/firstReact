@@ -2,8 +2,9 @@ import React from "react";
 import s from '../css/works.module.css'
 import Item from "./Item";
 
-import img from './game.jpg';
-import img2 from './gotovye-proekty-domov.jpg';
+import img from './unity.gif';
+import img2 from './defisheye.png';
+import img3 from '.films.png/';
 
 const Work = () => {
     return (
@@ -13,16 +14,16 @@ const Work = () => {
             </div>
             <div className={s.work} >
                 <div className={s.item}>
-                    <Item photo={img} head='Platformer'
-                          descr='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore'/>
+                    <Item photo={img} head='Бой на основе двух "стеков" юнитов'
+                        descr='Лабораторная работа с примененением паттернов проектирования'/>
                 </div>
                 <div className={s.item}>
-                    <Item photo={img2} head='Platformer'
-                          descr='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore'/>
+                    <Item photo={img2} head='Коррекция видео'
+                        descr='Программа для коррекции видеоряда, искаженного объективом "рыбий глаз"'/>
                 </div>
                 <div className={s.item}>
-                    <Item photo={img} head='Platformer'
-                          descr='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore'/>
+                    <Item photo={img3} head='Веб-приложение "Фильмотека"'
+                        descr='Разработка веб-приложения для подбора фильмов с учетом индивидуальных предпочтений пользователя на базе СУБД MySQL'/>
                 </div>
             </div>
         </div>

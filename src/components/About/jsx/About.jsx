@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className={s.about} id = 'about'>
             <div className={s.head}>
-                About Me
+                
             </div>
             <div className={s.descr}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

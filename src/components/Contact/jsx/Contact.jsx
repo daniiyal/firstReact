@@ -9,24 +9,24 @@ const Contact = () => {
             </div>
             <div className={s.field}>
                 <div className={s.form__group}>
-                    <input type="input" className={s.form__field} placeholder="First Name" name="fname" id='fname'
+                    <input type="input" className={s.form__field} placeholder="Имя" name="fname" id='fname'
                            required/>
                     <label htmlFor="fname" className={s.form__label}>First Name</label>
                 </div>
                 <div className={s.form__group}>
-                    <input type="input" className={s.form__field} placeholder="Last Name" name="lname" id='lname'
+                    <input type="input" className={s.form__field} placeholder="Фамилия" name="lname" id='lname'
                            required/>
                     <label htmlFor="lname" className={s.form__label}>Last Name</label>
                 </div>
                 <div className={s.form__group}>
-                    <input type="input" className={s.form__field} placeholder="Your E-Mail" name="mail" id='mail'
+                    <input type="input" className={s.form__field} placeholder="E-Mail" name="mail" id='mail'
                            required/>
                     <label htmlFor="mail" className={s.form__label}>Your E-Mail</label>
                 </div>
             </div>
             <div className={s.comment}>
                 <div className={s.form__group}>
-                    <input type="input" className={s.form__field} placeholder="Comment" name="comment" id='comment'
+                    <input type="input" className={s.form__field} placeholder="Комментарий" name="comment" id='comment'
                            required/>
                     <label htmlFor="comment" className={s.form__label}>Comment</label>
                 </div>

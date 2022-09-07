@@ -13,8 +13,8 @@ const Footer = () => {
                 <a href='#home'><img src={logo} alt="logo"/></a>
             </div>
             <div className={s.contact}>
-                <div>Reach Out</div>
-                <div>helpme@help.aaa</div>
+                <div>Связаться со мной</div>
+                <div>danik.magomedow@mail.ru</div>
             </div>
             <div className={s.socials}>
                 <a href='https://vk.com/m.daniyal'> <img src={vk}/> </a>
