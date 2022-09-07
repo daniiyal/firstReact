@@ -7,14 +7,16 @@ const Item = (props) => {
             <div className={s.photo}>
                 <img src={props.photo}/>
             </div>
-            <div className={s.head}>
-                {props.head}
-            </div>
-            <div className={s.descr}>
-                {props.descr}
-            </div>
-            <div className={s.read}>
-                Read more...
+            <div className={s.info}>
+                <div className={s.head}>
+                    {props.head}
+                </div>
+                <div className={s.descr}>
+                    {props.descr}
+                </div>
+                <div className={s.read}>
+                    <a href={props.repo}>Открыть в репозитории...</a>
+                </div>
             </div>
         </div>
     )

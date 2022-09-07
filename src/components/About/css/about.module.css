@@ -9,7 +9,7 @@
 
 .head {
     grid-area: hd;
-    align-self: end;
+    align-self: center;
     font-size: 40pt;
     font-family: Roboto, serif;
 }
@@ -39,8 +39,25 @@
     grid-area: ct;
 }
 
+.contact div{
+    margin-bottom: 5px;
+}
+
 .mail {
     font-size: 10pt;
     margin-top: 5vh;
     grid-area: mail;
+}
+
+.mail div{
+    margin-bottom: 5px;
+}
+
+.keywords{
+    margin-top: 10px;
+}
+
+.keywords span{
+    color:darkslateblue;
+    font-weight: bold;
 }

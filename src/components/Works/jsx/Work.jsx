@@ -4,26 +4,31 @@ import Item from "./Item";
 
 import img from './unity.gif';
 import img2 from './defisheye.png';
-import img3 from '.films.png/';
+import img3 from './films.png';
+
 
 const Work = () => {
     return (
         <div className={s.work_wrapper} id = 'portfolio'>
             <div className={s.head}>
-                Selected Work
+                ÐŸÐ¾Ñ€Ñ‚Ñ„Ð¾Ð»Ð¸Ð¾
             </div>
             <div className={s.work} >
                 <div className={s.item}>
-                    <Item photo={img} head='Áîé íà îñíîâå äâóõ "ñòåêîâ" þíèòîâ'
-                        descr='Ëàáîðàòîðíàÿ ðàáîòà ñ ïðèìåíåíåíèåì ïàòòåðíîâ ïðîåêòèðîâàíèÿ'/>
+                    <Item photo={img} head='Ð‘Ð¾Ð¹ Ð½Ð° Ð¾ÑÐ½Ð¾Ð²Ðµ Ð´Ð²ÑƒÑ… "ÑÑ‚ÐµÐºÐ¾Ð²" ÑŽÐ½Ð¸Ñ‚Ð¾Ð²'
+                        descr='Ð›Ð°Ð±Ð¾Ñ€Ð°Ñ‚Ð¾Ñ€Ð½Ð°Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ð° Ñ Ð¿Ñ€Ð¸Ð¼ÐµÐ½ÐµÐ½ÐµÐ½Ð¸ÐµÐ¼ Ð¿Ð°Ñ‚Ñ‚ÐµÑ€Ð½Ð¾Ð² Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ'
+                        repo='https://github.com/daniiyal/UnityBattle'/>
                 </div>
                 <div className={s.item}>
-                    <Item photo={img2} head='Êîððåêöèÿ âèäåî'
-                        descr='Ïðîãðàììà äëÿ êîððåêöèè âèäåîðÿäà, èñêàæåííîãî îáúåêòèâîì "ðûáèé ãëàç"'/>
+                    <Item photo={img2} head='ÐšÐ¾Ñ€Ñ€ÐµÐºÑ†Ð¸Ñ Ð²Ð¸Ð´ÐµÐ¾'
+                        descr='ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° Ð´Ð»Ñ ÐºÐ¾Ñ€Ñ€ÐµÐºÑ†Ð¸Ð¸ Ð²Ð¸Ð´ÐµÐ¾Ñ€ÑÐ´Ð°, Ð¸ÑÐºÐ°Ð¶ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð¾Ð±ÑŠÐµÐºÑ‚Ð¸Ð²Ð¾Ð¼ "Ñ€Ñ‹Ð±Ð¸Ð¹ Ð³Ð»Ð°Ð·"'
+                        repo='https://github.com/daniiyal/DeFishEyeVideo'/>
+               
                 </div>
                 <div className={s.item}>
-                    <Item photo={img3} head='Âåá-ïðèëîæåíèå "Ôèëüìîòåêà"'
-                        descr='Ðàçðàáîòêà âåá-ïðèëîæåíèÿ äëÿ ïîäáîðà ôèëüìîâ ñ ó÷åòîì èíäèâèäóàëüíûõ ïðåäïî÷òåíèé ïîëüçîâàòåëÿ íà áàçå ÑÓÁÄ MySQL'/>
+                    <Item photo={img3} head='Ð’ÐµÐ±-Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ "Ð¤Ð¸Ð»ÑŒÐ¼Ð¾Ñ‚ÐµÐºÐ°"'
+                        descr='Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° Ð²ÐµÐ±-Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð´Ð»Ñ Ð¿Ð¾Ð´Ð±Ð¾Ñ€Ð° Ñ„Ð¸Ð»ÑŒÐ¼Ð¾Ð² Ñ ÑƒÑ‡ÐµÑ‚Ð¾Ð¼ Ð¸Ð½Ð´Ð¸Ð²Ð¸Ð´ÑƒÐ°Ð»ÑŒÐ½Ñ‹Ñ… Ð¿Ñ€ÐµÐ´Ð¿Ð¾Ñ‡Ñ‚ÐµÐ½Ð¸Ð¹ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð½Ð° Ð±Ð°Ð·Ðµ Ð¡Ð£Ð‘Ð” MySQL'
+                        repo='https://github.com/daniiyal/Films'/>
                 </div>
             </div>
         </div>

@@ -10,12 +10,10 @@
 }
 
 .edu{
-
     display: grid;
     grid-template-rows: 50px repeat(2, 1fr);
     grid-area: edu;
     grid-gap: 3vh;
-
 }
 
 .edu .head{

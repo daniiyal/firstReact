@@ -6,20 +6,27 @@ const About = () => {
     return (
         <div className={s.about} id = 'about'>
             <div className={s.head}>
-                
+                О себе
             </div>
             <div className={s.descr}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam.
+            Имею навыки разработки на C#, веб-приложений Django на базе СУБД MySQL. 
+            <br></br>
+            Есть опыт работы с ORM Entity Framework, базами данных MS SQL и MySQL.
+      
+            <div className={s.keywords}>
+            Ключевые навыки: 
+                <span> C#, Python, MySQL, Django Framework, PostgreSQL, HTML, CSS</span>
+            </div>
             </div>
             <div className={s.contact}>
-                <div>Name: Daniyal Magomedov</div>
-                <div>Phone: +7(966)362-11-03</div>
-                <div>Address: 11, Botanicheskaya st.</div>
+                <div>Имя: Даниял Магомедов</div>
+                <div>Телефон: +7 (925) 444-34-53</div>
+                <div>Адрес: Москва, Выхино </div>
             </div>
             <div className={s.mail}>
                 <div>Mail: danik.magomedow@mail.ru</div>
-                <div>Freelance: available</div>
+                <div>Занятость: проектная работа, стажировка, частичная занятость</div>
+                <div>График работы: удаленная работа, гибкий график</div>
                 <div>&nbsp;</div>
             </div>
             <div className={s.photo}>
